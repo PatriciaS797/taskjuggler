@@ -45,6 +45,7 @@ rate 145.2
 account cost "Project Cost" {
   account manag "Management"
   account wFront "Web Front-End"
+
   account back "Back-End"
 }
 account rev "Payments"
@@ -153,7 +154,7 @@ task WMGame "Web & Mobile Game" {
 
  task tandF "Front-end mobile" {
     purge chargeset
-    chargeset aFront
+    chargeset wFront
     responsible dev4
     depends WMGame.tback.tBEd
     task tGUIdA "Android GUI Design" {
