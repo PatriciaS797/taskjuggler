@@ -157,7 +157,7 @@ task WMGame "Web & Mobile Game" {
     chargeset wFront
     responsible dev4
     depends WMGame.tback.tBEd
-    task tGUIdA "Android GUI Design" {
+    task tGUIa "Android GUI Design" {
       effort 5d
       allocate dev4
       journalentry 2023-5-5 "Problems with the GUI design tool in android" {
